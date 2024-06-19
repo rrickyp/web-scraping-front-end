@@ -60,7 +60,7 @@ export default {
         email: this.email,
       });
 
-      fetch(`http://localhost:3000/searching?${params.toString()}`, {
+      fetch(`https://web-scraping-gamma.vercel.app/searching?${params.toString()}`, {
         method: 'GET',
         headers: {
           'Access-Control-Allow-Origin': '*',
